@@ -1,0 +1,15 @@
+{
+  "name": "nw-sample",
+  "description": "node-webkit sample application",
+  "version": "0.0.0",
+  "main": "app/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mizumi",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-node-webkit-builder": "^0.1.21"
+  }
+}
