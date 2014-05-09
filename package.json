@@ -4,12 +4,23 @@
   "version": "0.0.0",
   "main": "app/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt test"
+  },
+  "directories": {
+      "test": "test/"
   },
   "author": "mizumi",
   "license": "MIT",
+  "dependencies": {
+    "backbone": "^1.1.2",
+    "jquery": "^2.1.1"
+  },
   "devDependencies": {
     "grunt": "^0.4.4",
-    "grunt-node-webkit-builder": "^0.1.21"
+    "grunt-mocha-test": "^0.10.2",
+    "grunt-node-webkit-builder": "^0.1.21",
+    "intelli-espower-loader": "0.0.7",
+    "mocha": "^1.18.2",
+    "power-assert": "^0.6.1"
   }
 }
